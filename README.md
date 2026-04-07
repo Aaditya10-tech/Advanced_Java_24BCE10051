@@ -1,7 +1,3 @@
-# Advanced_Java_24BCE10051
-# Nmae: Aaditya Swapnil Chougule
-# Reg No.: 24BCE10051
-
 # 🛠 HelpDesk System
 
 A Java-based Help Desk Management System built using JSP, Servlets, and Apache Tomcat.

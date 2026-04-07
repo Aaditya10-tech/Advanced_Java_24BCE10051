@@ -1,0 +1,90 @@
+@charset "ISO-8859-1";
+body {
+    margin: 40px 40px 40px 40px;
+}
+/* Navigation Bar */
+#n_bar {
+    display: flex;
+    list-style-type: none;
+    padding-left: 17%;
+    position: absolute;
+    top: 17px;
+    left: 23px;
+}
+#n_bar :hover{
+    background-color: rgb(95, 211, 114);
+}
+li a {
+    display: block;
+    float: left;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 140%;
+    color: rgb(255, 255, 255);
+    background-color: rgb(40, 40, 40);
+    padding: 24px 34px 24px 34px;
+}
+/* Login & Sign Up Button */
+button {
+    background-color: rgb(40, 40, 40);
+    border-color: rgb(40, 40, 40);
+    font-size: 110%;
+    height: 35px;
+    width: 100px;
+}
+button a {
+    text-decoration: none;
+    color: white;
+}
+#b1 {
+    position: absolute;
+    top: 33px;
+    right: 3%;
+}
+#b2 {
+    position: absolute;
+    top: 71px;
+    right: 3%;
+}
+/* Profile & Logo Setup */
+#profile {
+    border-radius: 4px;
+    width: 73px;
+    position: absolute;
+    right: 152px;
+    top: 33px;
+}
+#logo {
+    position: relative;
+    bottom: 8px;
+}
+/* Header End */
+hr {
+    border-style: inset;
+    border-color: rgb(40, 40, 40);
+    background-color: rgb(40, 40, 40);
+    height: 5px;
+    width: 100%;
+    margin-top: 20px;
+}
+/* Back Button Setup */
+#back_b {
+    position: absolute;
+    top: 32px;
+    right: 3%;
+    color: white;
+    background-color: rgb(40, 40, 40);
+    border-color: rgb(40, 40, 40);
+    font-size: 140%;
+    height: 74px;
+    width: 140px;
+}
+#back_b:hover {
+    background-color: rgb(95, 211, 114);
+    border: none;
+    cursor: pointer;
+}
+#back_b a {
+    text-decoration: none;
+    color: rgb(110, 100, 250);
+}
